@@ -1,0 +1,2 @@
+rootProject.name='WhatsApp Rekarnasi'
+include ':app'

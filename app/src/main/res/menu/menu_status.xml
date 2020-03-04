@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/new_game"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/status_privacy"
+        android:title="@string/status_privacy"
+        app:showAsAction="never" />
+    <item android:id="@+id/setting"
+        android:title="@string/setting"
+        app:showAsAction="never" />
+</menu>
