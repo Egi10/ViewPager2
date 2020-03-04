@@ -1,7 +1,11 @@
 package com.egi10.viewpager2
 
+import android.graphics.Color
+import android.graphics.ColorFilter
+import android.graphics.PorterDuff
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.egi10.viewpager2.chats.ChatsFragment
 import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -14,12 +18,14 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolBar)
 
         val pages = listOf(
+            StatusFragment(),
             ChatsFragment(),
             StatusFragment(),
             CallsFragment()
         )
 
         val title = listOf(
+            "Photo",
             "CHATS",
             "STATUS",
             "CALLS"
@@ -28,7 +34,18 @@ class MainActivity : AppCompatActivity() {
         val tabLayoutAdapter = TabLayoutAdapter(this, pages)
         viewPager.adapter = tabLayoutAdapter
         TabLayoutMediator(tabLayout, viewPager) { tab, position ->
-            tab.text = title[position]
+            when(position) {
+                0 -> {
+                    tab.text = ""
+                    tab.setIcon(R.drawable.ic_photo_camera)
+                    tab.icon?.setColorFilter(Color.parseColor("#ffffff"), PorterDuff.Mode.SRC_IN)
+                }
+
+                else -> {
+                    tab.text = title[position]
+                }
+            }
         }.attach()
+        viewPager.currentItem = 1
     }
 }

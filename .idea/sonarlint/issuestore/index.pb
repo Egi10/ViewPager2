@@ -1,0 +1,19 @@
+
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+@
+app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
+j
+:app/src/main/java/com/egi10/viewpager2/TabLayoutAdapter.kt,d/2/d295f5c4449d4d45293c73c8800a7e614cc9d258
+f
+6app/src/main/java/com/egi10/viewpager2/MainActivity.kt,5/f/5f2030241ec25fc6e72ea57cbaeac417b3497397
+h
+8app/src/main/java/com/egi10/viewpager2/StatusFragment.kt,b/5/b580fcd06b8847a1a4d284c670ae9070ded15139
+g
+7app/src/main/java/com/egi10/viewpager2/CallsFragment.kt,c/b/cb66474c8e703c2eb4ac898908bee6dfb263ccc7
+e
+5app/src/main/java/com/egi10/viewpager2/chats/Chats.kt,b/b/bb16731c8614dcdf3d2646e33f1158bded1e625c
+m
+=app/src/main/java/com/egi10/viewpager2/chats/ChatsFragment.kt,0/5/05f97d038e8000a2690d3f07ef45b5fdd3dbd5da
+l
+<app/src/main/java/com/egi10/viewpager2/chats/ChatsAdapter.kt,b/4/b49ae52262e5e65ceebcec73208e7bd302bacaf3
