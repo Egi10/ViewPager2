@@ -13,6 +13,4 @@ class TabLayoutAdapter(fragmentManager: FragmentActivity, private val pages: Lis
     override fun createFragment(position: Int): Fragment {
         return pages[position]
     }
-
-
 }

@@ -17,3 +17,5 @@ m
 =app/src/main/java/com/egi10/viewpager2/chats/ChatsFragment.kt,0/5/05f97d038e8000a2690d3f07ef45b5fdd3dbd5da
 l
 <app/src/main/java/com/egi10/viewpager2/chats/ChatsAdapter.kt,b/4/b49ae52262e5e65ceebcec73208e7bd302bacaf3
+h
+8app/src/main/java/com/egi10/viewpager2/util/TabLayout.kt,7/c/7cd36db199f441d9445ec5e3651800ad71594b1c
